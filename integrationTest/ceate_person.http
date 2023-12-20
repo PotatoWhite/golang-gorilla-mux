@@ -1,0 +1,12 @@
+### create person
+POST localhost:8080/persons
+Content-Type: application/json
+
+{
+    "name": "Potato",
+    "email": "Potato01@example.com"
+}
+
+
+### get persons
+GET localhost:8080/persons
